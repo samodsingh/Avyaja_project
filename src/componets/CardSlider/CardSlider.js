@@ -12,13 +12,15 @@ import "swiper/css/navigation";
 import "./CardSlider.css";
 
 // import required modules
-import { Pagination, Navigation } from "swiper";
+import {Autoplay, Pagination, Navigation } from "swiper";
 
 export default function CardSlider() {
   return (
     <>
+               <h1 className="blog-title">Our Latest Blog Posts</h1>
+
       <Swiper
-        slidesPerView={4}
+        slidesPerView={window.innerWidth > 600 ? 4 : 1}
         spaceBetween={30}
         slidesPerGroup={1}
         loop={true}
@@ -27,10 +29,13 @@ export default function CardSlider() {
           clickable: true,
         }}
         navigation={true}
-        modules={[Pagination, Navigation]}
+        modules={[ Autoplay,Pagination, Navigation]}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         className="mySwiper" id="blogs"
       >
-           
 
         <SwiperSlide>
                 <div className="card">
@@ -55,6 +60,7 @@ export default function CardSlider() {
         <SwiperSlide>
                 <div className="card">
                     <img src={Cardimg1} alt="card images" />
+
                 </div>                     
         </SwiperSlide>
         <SwiperSlide>

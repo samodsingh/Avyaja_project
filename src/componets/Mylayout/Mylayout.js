@@ -36,8 +36,8 @@ const Mylayout = () => {
           </ul>
         </div>
         <div>
-          <Button className='drawar_button' onClick={showDrawer}>
-            <MenuOutlined />
+          <Button  onClick={showDrawer}>
+            <MenuOutlined className='drawar_button' />
           </Button>
           <Drawer title="Menu" width={300} placement="right" onClose={onClose} open={open}>
             <ul className='drawar_items'>

@@ -1,10 +1,9 @@
 
 .myheader_navigation{
-    display: flex;
+    display: flex;    
     align-items: center;    
     padding: 0 1rem;
-    
-}
+    }
 .myheader_logo img{
     width:120px;
     padding: 10px;
@@ -21,12 +20,16 @@
 }
 .myheader_navigation_items li{
  padding: 0 20px;
- font-size: 16px;
+ font-size: 14px;
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .myheader_navigation_items a{
     color: black;
     text-decoration: none;    
+}
+.drawar_button{
+    font-size: 25px;
+    background-color: none;
 }
  .drawar_items li {
     margin-bottom: 15px;
@@ -58,23 +61,28 @@
 
 @media screen and (min-width: 600px) {
     .myheader_drawar_style {
-        width: 400px;
-        display: flex;
-        align-items: center;
-
+        display: flex;      
+        flex-direction: row;  
     }
   }
 @media screen and (max-width: 600px) {
+    .myheader_navigation{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+    }
     .myheader_drawar_style {
-        width: 400px;
-        display: flex;
-        flex-direction: column;
+        display: flex;        
+        width: 300px;        
         align-items: center;
-        font-size: 15px;
+        text-align: left;
 
     }
     .myheader_logo img{
         width:100px;
         padding: 10px;
+    }
+    .myheader_logo{
+        text-align: left;
     }
   }

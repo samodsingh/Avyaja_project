@@ -7,20 +7,20 @@ import section4img6 from "../../images/section4img6.png";
 
 const Contentpage = () => {
   return (
-    <>  
-    <div className='contentpage_style'>
-     <Row>
-      <Col xs={{span: 24,offset: 0,}} md={{span: 12,offset: 1,}}  lg={{span: 10,offset: 2,}}>
-        <p>Avyaja is a Not-for-Profit Organization assisting in the area of Mobility to enrich and dignify the impaired lives of society affected by events influenced due to age, genetic, birth, religion, social events, environmental & psychological factors. Avyaja is working towards the inclusion of impaired lives into mainstream society through this social integration initiative.</p>
-      </Col>
-      <Col xs={{span: 24,offset: 0,}} md={{span: 10,offset: 0,}} lg={{span: 9,offset: 1,}}>
-        <img src={section2image} alt="section2Image" />
-      </Col>
-    </Row>
-    </div>
-    <div className='section3' id='section3'>
+    <>
+      <div className='contentpage_style'>
         <Row>
-          <Col lg={{span: 18,offset: 0,}}>
+          <Col xs={{ span: 24, offset: 0, }} md={{ span: 12, offset: 1, }} lg={{ span: 10, offset: 2, }}>
+            <p>Avyaja is a Not-for-Profit Organization assisting in the area of Mobility to enrich and dignify the impaired lives of society affected by events influenced due to age, genetic, birth, religion, social events, environmental & psychological factors. Avyaja is working towards the inclusion of impaired lives into mainstream society through this social integration initiative.</p>
+          </Col>
+          <Col xs={{ span: 24, offset: 0, }} md={{ span: 10, offset: 0, }} lg={{ span: 9, offset: 1, }}>
+            <img src={section2image} alt="section2Image" />
+          </Col>
+        </Row>
+      </div>
+      <div className='section3' id='section3'>
+        <Row>
+          <Col lg={{ span: 18, offset: 0, }}>
             <div className='about-content'>
               <h1>Avyaja app is launched</h1>
               <h2 className='text-yellow'>Avyaja App - Use it to Believe it</h2>
@@ -33,14 +33,15 @@ const Contentpage = () => {
             </div>
           </Col>
         </Row>
-    </div>
-    <section className='section4'>
-      <Row>
-        <Col  xs={{span: 24,offset: 0,}}lg={{span: 12,offset: 0,}}>
-            <div className="member-content" id='about'>
+      </div>
+      <section id='section4'>
+        <div className="section4">
+          <Row>
+            <Col xs={{ span: 24, offset: 0, }} lg={{ span: 10, offset: 2, }}>
+              <div className="member-content" id='about'>
                 <h1>About Us</h1>
                 <p><strong>"Avyaja"</strong> " implies " <strong>“Truth, Transparent & Trust.”</strong>
-                with core value of Mutual respect, Gratitude, Compassion, Honour, Candor & Integrity. 
+                  with core value of Mutual respect, Gratitude, Compassion, Honour, Candor & Integrity.
                 </p>
                 <p>Avyaja team is dedicated to assist the vulnerable segment of society and assist each citizen to lead a balanced and dignified life. </p>
                 <p><strong>Our Vision:</strong> “To create a dignified and Humane society through Compassion and Gratitude!” </p>
@@ -56,25 +57,21 @@ const Contentpage = () => {
                   </ol>
                 </div>
                 <a type='button' className='btn-yellow' href="/">Join Avyaja</a>
-            </div>
-        </Col>
-        <Col  xs={{span: 24,offset: 0,}}lg={{span: 12,offset: 0,}}>
-            <div className="member-content-right">
-                <img src={section4img6} alt="section4 image" className='img-fluid'/>
-            </div>
-            <div className='row mt-5 g-3'>
-                <div className="col-md-3">  </div>
-                <div className="col-md-6">
-                <iframe width="50%" height="170" src="https://www.youtube.com/embed/oirqaeQPpGw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+              </div>
+            </Col>
+            <Col xs={{ span: 24, offset: 0, }} lg={{ span: 12, offset: 0, }}>
+              <div className="member-content-right">
+                <img src={section4img6} alt="section4 image" className='img-fluid' />
+              </div>
+              <div className='video_container'>                         
+                  <iframe width="100%" height="170" src="https://www.youtube.com/embed/oirqaeQPpGw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
 
-                </iframe>
-                </div>
-
-            </div>
-        </Col>
-        
-      </Row>
-    </section>
+                  </iframe>                
+              </div>
+            </Col>
+          </Row>
+        </div>
+      </section>
     </>
   )
 }

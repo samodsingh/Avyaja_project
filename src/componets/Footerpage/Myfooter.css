@@ -3,6 +3,7 @@
     background-color: black;
     /* position: absolute; */
     color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
   }
   .footerLogo img{
     width: 150px;
@@ -13,6 +14,8 @@
     text-align: left;
     align-items: center;
     padding: 30px;
+    font-family: 'Roboto', sans-serif;
+
   }
   .bottom_footer{
     position: absolute;
@@ -24,10 +27,12 @@
    align-items: center;
   }
   .footer_text_style div {
-    font-size: 18px;
+    font-size: 16px;
     display: flex;
     flex-direction:column;
     justify-content: center;
+    font-family: 'Roboto', sans-serif;
+
   }
    p ,a{
     /* width: 60%; */

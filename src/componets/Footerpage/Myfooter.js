@@ -38,8 +38,8 @@ const Myfooter = () => {
                 </Row>
                 <hr />
                 <Row justify="center" style={{alignItems:"center"}}>
-                <Col xs={{ span: 24, offset: 0 }} lg={{ span:  6, offset: 2 }}>
-                    <p>© Copyright 2021 <b style={{color:"orange"}}>Avyaja Foundation </b> All rights reserved.Powered by Vizib Technologies LLP</p>
+                <Col xs={{ span: 18, offset: 1}} lg={{ span:  6, offset: 2 }}>
+                    <p>© Copyright 2021 <b style={{color:"orange" ,textAlign:"justify"}}>Avyaja Foundation </b> All rights reserved.Powered by Vizib Technologies LLP</p>
                 </Col>
                 <Col xs={{ span: 24, offset: 0}} lg={{ span: 8, offset: 8 }}>
                    <a  className='privace_condition' href="/">Privacy Policy and Terms & Conditions</a>
