@@ -1,0 +1,67 @@
+.footer_section{
+    width: 100%;
+    background-color: black;
+    /* position: absolute; */
+    color: whitesmoke;
+  }
+  .footerLogo img{
+    width: 150px;
+  }
+
+  .top_footer{
+    max-width: 500px;
+    text-align: left;
+    align-items: center;
+    padding: 30px;
+  }
+  .bottom_footer{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    /* background-color: aliceblue; */
+    border-top: 0.1px solid whitesmoke;
+   align-items: center;
+  }
+  .footer_text_style div {
+    font-size: 18px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+  }
+   p ,a{
+    /* width: 60%; */
+    padding: 10px;
+    text-align: left;
+    font-size: 18px;
+  }
+  .privace_condition{
+    list-style: none;
+    color: whitesmoke;
+  }
+  .socail_icons{
+    margin-top: 30px;
+    width: 90%;
+    /* background-color: red; */
+  }
+  .socail_icons ul {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+  }
+  .socail_icons ul li {
+    list-style: none;
+    /* border: 1px solid rgb(36, 36, 36); */
+    border-radius: 50px;
+    margin: 2px;
+    text-align: center;  
+    padding: 5px 3px;
+    background-color: rgb(24, 23, 23);
+
+   }
+
+   .socail_icons ul li a {
+    color: orange;
+    font-size: 25px;
+
+   }

@@ -1,0 +1,124 @@
+.contentpage_style{
+    min-height: 400px;
+    padding: 30px;
+    
+
+
+}
+.contentpage_style p{
+    font-size: 25px;
+}
+
+.contentpage_style img{
+    max-width: 100%;
+}
+
+/* section 3 */
+.section3{
+
+}
+.section3 {
+    background: rgba(1,31,91,1);
+    background-size: cover;
+    padding: 30px 0;
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(125deg, rgba(1,31,91,1) 0%, rgba(7,150,198,1) 100%);
+}
+
+.section3:after {
+    content: '';
+    position: absolute;
+    left: 20%;
+    right: 0;
+    top: 0%;
+    bottom: 0;
+    z-index: -1;
+    opacity: .1;
+    background: url(../../images/section3bg.png) no-repeat;
+}
+.about-content {
+    position: relative;
+    z-index: 10;
+    padding: 50px 20%;
+    text-align: left;
+}
+.about-content h1 {
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 4rem;
+}
+.text-yellow {
+    color: #FFB800;
+}
+
+.about-content p {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    margin-top: 0;
+}
+
+.about-content p a {
+    color: #0d6efd;
+    text-decoration: underline;
+}
+.download-app {
+    padding: 0;
+    margin: 1rem 0 0 0;
+}
+.download-app li a {
+    display: block;
+    color: #0d6efd;
+    text-decoration: underline;
+}
+
+.download-app  a img {
+    width: 200px;
+ }
+
+ /* section aboutus 4*/
+
+ .member-content {
+    padding: 0 3rem;
+}
+.member-content h1 {
+    font-size: 50px;
+    color: #011F5B;
+    margin-bottom: 2rem;
+}
+.member-content p {
+    font-size: 20px;
+    color: #011F5B;
+    margin-bottom: 1rem;
+}
+
+.key-value {
+    border: 4px solid #FFB800;
+    padding:30px;
+    text-align: justify;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.key-value h5{
+    color:#FFB800 ;
+}
+.btn-yellow {
+    background: #FFB800;
+    color: #011F5B;
+    padding: 12px 36px;
+    display: inline-block;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    transition: all 0.3s ease-in-out;
+}
+
+.member-content-right {
+    padding: 2rem 3rem;
+}
+.member-content-right .img-fluid {
+    max-width: 100%;
+    height: auto;
+}
