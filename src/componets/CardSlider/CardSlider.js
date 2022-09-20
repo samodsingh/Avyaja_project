@@ -1,4 +1,3 @@
-import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import Cardimg1 from "../../images/cardimg1.jpg";
@@ -10,17 +9,27 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "./CardSlider.css";
+import {useState} from "react";
 
 // import required modules
-import {Autoplay, Pagination, Navigation } from "swiper";
-
+import {Autoplay, Pagination, Navigation } from "swiper"; 
 export default function CardSlider() {
+  const [size, setsize] = useState (5);
+  const resizefun = () =>{
+    if(window.innerWidth > 700 ){
+      setsize(5);
+    }
+    else{
+      setsize(1);
+    }
+  }
+ window.addEventListener("resize",resizefun)
   return (
-    <>
+    <>    
                <h1 className="blog-title">Our Latest Blog Posts</h1>
 
       <Swiper
-        slidesPerView={window.innerWidth > 600 ? 4 : 1}
+        slidesPerView={size}
         spaceBetween={30}
         slidesPerGroup={1}
         loop={true}
