@@ -118,7 +118,7 @@
     font-size: 20px;
     font-weight: 600;
 }
-.btn-yellow {
+.member-content .btn-yellow{
     background: #FFB800;
     color: #011F5B;
     padding: 12px 36px;
@@ -128,7 +128,9 @@
     font-weight: 600;
     font-size: 24px;
     transition: all 0.3s ease-in-out;
+    position: relative;
 }
+
 
 
 

@@ -60,13 +60,19 @@
     border-radius: 50px;
     margin: 2px;
     text-align: center;  
-    padding: 5px 3px;
-    background-color: rgb(24, 23, 23);
+    padding: 4px 3px;
+    background-color: rgb(19, 18, 18);
+    position: relative;
+
 
    }
 
-   .socail_icons ul li a {
+   .socail_icons ul li .link-icon{
     color: orange;
-    font-size: 25px;
+    font-size: 30px;
+   }
+   .socail_icons ul li:hover{
+    bottom: 5px;
+    background-color: rgb(29, 28, 28);
 
    }

@@ -49,42 +49,81 @@ export default function CardSlider() {
         <SwiperSlide>
                 <div className="card">
                     <img src={Cardimg1} alt="card images" />
+                    <div className="card_title">
+                    <span>March 18, 2021</span>
+                     <p>Your Go-To Guide for Volunteering with Seniors.</p>
+                      <a  href="/" className="link_title">See Details</a>
+                    </div>
                 </div>                     
         </SwiperSlide>
         <SwiperSlide>
                 <div className="card">
                     <img src={Cardimg2} alt="card images" />
+                    <div className="card_title">
+                    <span>March 18, 2021</span>
+                     <p>Your Go-To Guide for Volunteering with Seniors.</p>
+                      <a  href="/" className="link_title">See Details</a>
+                    </div>
                 </div>                     
         </SwiperSlide>
         <SwiperSlide>
                 <div className="card">
                     <img src={Cardimg1} alt="card images" />
+                    <div className="card_title">
+                    <span>March 18, 2021</span>
+                     <p>Your Go-To Guide for Volunteering with Seniors.</p>
+                      <a  href="/" className="link_title">See Details</a>
+                    </div>
                 </div>                     
         </SwiperSlide>
         <SwiperSlide>
                 <div className="card">
                     <img src={Cardimg3} alt="card images" />
+                    <div className="card_title">
+                    <span>March 18, 2021</span>
+                     <p>Your Go-To Guide for Volunteering with Seniors.</p>
+                      <a  href="/" className="link_title">See Details</a>
+                    </div>
                 </div>                     
         </SwiperSlide>
         <SwiperSlide>
                 <div className="card">
                     <img src={Cardimg1} alt="card images" />
-
+                    <div className="card_title">
+                    <span>March 18, 2021</span>
+                     <p>Your Go-To Guide for Volunteering with Seniors.</p>
+                      <a  href="/" className="link_title">See Details</a>
+                    </div>
                 </div>                     
         </SwiperSlide>
         <SwiperSlide>
                 <div className="card">
                     <img src={Cardimg2} alt="card images" />
+                    <div className="card_title">
+                    <span>March 18, 2021</span>
+                     <p>Your Go-To Guide for Volunteering with Seniors.</p>
+                      <a  href="/" className="link_title">See Details</a>
+                    </div>
                 </div>                     
         </SwiperSlide>
         <SwiperSlide>
                 <div className="card">
                     <img src={Cardimg1} alt="card images" />
+                    <div className="card_title">
+                    <span>March 18, 2021</span>
+                     <p>Your Go-To Guide for Volunteering with Seniors.</p>
+                      <a  href="/" className="link_title">See Details</a>
+                    </div>
                 </div>                     
         </SwiperSlide>
         <SwiperSlide>
                 <div className="card">
                     <img src={Cardimg3} alt="card images" />
+                    <div className="card_title">
+                      <span>March 18, 2021</span>
+                     <p>Your Go-To Guide for Volunteering with Seniors.</p>
+                      <a  href="/" className="link_title">See Details</a>
+                    </div>
                 </div>                     
         </SwiperSlide>
          

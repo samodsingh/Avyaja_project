@@ -25,11 +25,11 @@ const Myfooter = () => {
                 
                         <div className='socail_icons'>
                             <ul>
-                                <li><a href="/"><FacebookOutlined /></a></li>
-                                <li><a href="/"><TwitterOutlined /></a></li>
-                                <li><a href="/"><InstagramOutlined /></a></li>
-                                <li><a href="/"><LinkedinOutlined /></a></li>
-                                <li><a href="/"><YoutubeOutlined /></a></li>
+                                <li><a className='link-icon' href="/"><FacebookOutlined /></a></li>
+                                <li><a className='link-icon' href="/"><TwitterOutlined /></a></li>
+                                <li><a className='link-icon' href="/"><InstagramOutlined /></a></li>
+                                <li><a  className='link-icon' href="/"><LinkedinOutlined /></a></li>
+                                <li><a className='link-icon' href="/"><YoutubeOutlined /></a></li>
                             </ul>
                         </div>                  
 
